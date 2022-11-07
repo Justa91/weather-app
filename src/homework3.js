@@ -3,6 +3,7 @@ let now = new Date();
 let date = now.getDate();
 let hour = now.getHours();
 let minutes = now.getMinutes();
+
 let days = [
   "Sunday",
   "Monday",
@@ -18,7 +19,7 @@ if (hour < 10) {
 if (minutes < 10) {
   minutes = `0${minutes}`;
 }
-let day = days[now.getDate()];
+let day = days[now.getDay()];
 
 let currentDate = document.querySelector(".current-date");
 currentDate.innerHTML = `${day} ${hour}:${minutes}`;
