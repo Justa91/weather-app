@@ -52,7 +52,11 @@ ul {
 p {
   font-size: 135%;
 }
-
+footer {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 5px;
+}
 .current-info {
   padding: 5px;
   margin-bottom: 20px;
