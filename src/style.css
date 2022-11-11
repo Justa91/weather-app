@@ -1,0 +1,29 @@
+.weather-app {
+  font-family: "Comic Neue", cursive;
+  color: rgb(32, 32, 32);
+  border: 2px solid rgb(32, 32, 32);
+  max-width: 500px;
+  padding: 20px;
+  margin: 10px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#icon-weather {
+  font-size: 500%;
+}
+
+P {
+  line-height: 3px;
+}
+
+#right-sided-information {
+  text-align: center;
+}
