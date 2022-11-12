@@ -2,9 +2,9 @@
   font-family: "Comic Neue", cursive;
   color: rgb(32, 32, 32);
   border: 10px solid rgb(32, 32, 32);
-  max-width: 600px;
+  max-width: 700px;
   padding: 10px;
-  margin: 10px;
+  margin: 20px auto;
   background-image: url("/images/background.jpg");
 }
 
@@ -18,7 +18,7 @@ ul {
 
 footer {
   padding-top: 5px;
-  margin-left: 9px;
+  margin-left: 297px;
   font-size: small;
   line-height: 0px;
 }
