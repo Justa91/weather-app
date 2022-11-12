@@ -1,29 +1,66 @@
 .weather-app {
   font-family: "Comic Neue", cursive;
   color: rgb(32, 32, 32);
-  border: 2px solid rgb(32, 32, 32);
-  max-width: 500px;
-  padding: 20px;
+  border: 10px solid rgb(32, 32, 32);
+  max-width: 600px;
+  padding: 10px;
   margin: 10px;
-}
-ul {
-  margin: 0;
-  padding: 0;
-}
-li {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-#icon-weather {
-  font-size: 500%;
+  background-image: url("/images/background.jpg");
 }
 
 P {
   line-height: 3px;
 }
 
-#right-sided-information {
+ul {
+  list-style: none;
+}
+
+footer {
+  padding-top: 5px;
+  margin-left: 9px;
+  font-size: small;
+  line-height: 0px;
+}
+
+hr {
+  max-width: 215px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.border-wrapper {
+  border: 3px solid rgb(32, 32, 32);
+  padding: 10px;
+}
+
+#icon-weather {
+  font-size: 100px;
+}
+
+#description {
+  font-size: 30px;
+}
+
+#color1 {
+  background-color: rgb(234, 31, 95, 0.9);
+}
+
+#color2 {
+  background-color: rgb(252, 206, 53, 0.9);
+  margin-top: 10px;
+}
+
+div#right-sided-information.col-6 {
   text-align: center;
+
+  border: 3px solid rgb(32, 32, 32);
+  width: 48%;
+  background-color: rgb(3, 169, 245, 0.9);
+}
+
+div#left-sided-information.col-6 {
+  padding-right: 10px;
 }

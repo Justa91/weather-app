@@ -24,25 +24,38 @@
     <div class="container">
       <div class="weather-app">
         <div class="row">
-          <div class="col-6">
-            <h1>Warsaw</h1>
-            <p>Friday 21:00</p>
-            <h2>23℃ | °F</h2>
-            <ul>
-              <li>Humidity: 66%</li>
-              <li>Wind: 3km/h</li>
-            </ul>
+          <div class="col-6" id="left-sided-information">
+            <div class="border-wrapper" id="color1">
+              <h1 class="fw-bold">Warsaw</h1>
+              <p>Friday 21:00</p>
+              <h2 class="fw-bold">23℃ | °F</h2>
+            </div>
+            <div class="border-wrapper" id="color2">
+              <ul class="list-group">
+                <li>Humidity: 66%</li>
+                <li>Wind: 3km/h</li>
+              </ul>
+            </div>
           </div>
+
           <div class="col-6" id="right-sided-information">
             <span id="icon-weather">☀️</span>
-            <p>sunny</p>
+            <p id="description">sunny</p>
           </div>
         </div>
       </div>
       <footer>
-        <a href="https://github.com/Justa91/weather-app">Open-source code</a>,
-        by Justyna Krupa
+        <a href="https://github.com/Justa91/weather-app" target="_blank"
+          >Open-source code</a
+        >, by Justyna Krupa
+        <hr />
+        <a
+          href="https://www.freepik.com/free-vector/black-minimal-halftone-white-background_17995612.htm#page=2&query=white%20comic%20background&position=0&from_view=keyword"
+          >Image by vector_corp</a
+        >
+        on Freepik
       </footer>
+      <small> </small>
     </div>
   </body>
 </html>
