@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/style.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,45 +17,42 @@
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
-
+    <link rel="stylesheet" href="src/style.css" />
     <title>Comic Weather App</title>
   </head>
   <body>
     <div class="container">
-      <div class="weather-app">
-        <div class="row">
-          <div class="col-6" id="left-sided-information">
-            <div class="border-wrapper" id="color1">
-              <h1 class="fw-bold">Warsaw</h1>
-              <p>Friday 21:00</p>
-              <h2 class="fw-bold">23℃ | °F</h2>
+      <div class="weather-app-wrapper">
+        <div class="weather-app">
+          <div class="row">
+            <div class="col-6" id="left-sided-information">
+              <div class="border-wrapper" id="color1">
+                <h1>Geece</h1>
+                <p class="date">Friday 21:00</p>
+                <hr />
+                <h2>23</h2>
+                <span class="units">°C | °F</span>
+              </div>
+              <div class="border-wrapper" id="color2">
+                <ul>
+                  <li>Humidity: 66%</li>
+                  <li>Wind: 3km/h</li>
+                </ul>
+              </div>
             </div>
-            <div class="border-wrapper" id="color2">
-              <ul class="list-group">
-                <li class="fw-bold">Humidity: 66%</li>
-                <li class="fw-bold">Wind: 3km/h</li>
-              </ul>
-            </div>
-          </div>
 
-          <div class="col-6" id="right-sided-information">
-            <span id="icon-weather">☀️</span>
-            <p id="description">sunny</p>
+            <div class="col-6" id="right-sided-information">
+              <span id="icon-weather">☀️</span>
+              <p id="description">sunny</p>
+            </div>
           </div>
         </div>
+        <footer>
+          <a href="https://github.com/Justa91/weather-app" target="_blank"
+            >Open-source code</a
+          >, by Justyna Krupa
+        </footer>
       </div>
-      <footer>
-        <a href="https://github.com/Justa91/weather-app" target="_blank"
-          >Open-source code</a
-        >, by Justyna Krupa
-        <hr />
-        <a
-          href="https://www.freepik.com/free-vector/black-minimal-halftone-white-background_17995612.htm#page=2&query=white%20comic%20background&position=0&from_view=keyword"
-          >Image by vector_corp</a
-        >
-        on Freepik
-      </footer>
-      <small> </small>
     </div>
   </body>
 </html>
