@@ -42,10 +42,17 @@ input {
   background-color: white;
   padding: 5px;
   margin: 5px;
+  box-shadow: 2px 3px 1px 1px rgb(32, 32, 32);
 }
 button {
   border: 2px solid rgb(32, 32, 32);
   background-color: white;
+  box-shadow: 2px 3px 1px 1px rgb(32, 32, 32);
+}
+button:hover {
+  background-color: rgb(224, 13, 13);
+  color: white;
+  transition: 500ms linear;
 }
 .units {
   position: relative;
@@ -87,7 +94,6 @@ a:link {
 }
 div#right-sided-information.col-6 {
   text-align: center;
-
   border: 5px solid rgb(32, 32, 32);
   width: 48%;
   background-color: rgb(3, 169, 245, 0.8);
