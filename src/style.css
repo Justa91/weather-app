@@ -20,6 +20,7 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  font-weight: 700;
 }
 
 footer {
@@ -29,9 +30,23 @@ footer {
 hr {
   margin-top: 5px;
   border: 1px solid rgb(249, 249, 249);
-  opacity: 1;
+  opacity: 0.4;
 }
-
+form {
+  margin-bottom: 10px;
+  text-align: center;
+}
+input {
+  border: 2px solid rgb(32, 32, 32);
+  width: 400px;
+  background-color: white;
+  padding: 5px;
+  margin: 5px;
+}
+button {
+  border: 2px solid rgb(32, 32, 32);
+  background-color: white;
+}
 .units {
   position: relative;
   top: -23px;
@@ -59,21 +74,23 @@ a:link {
   font-size: 30px;
 }
 
-#color1 {
-  background-color: rgb(234, 31, 95, 0.9);
+#temperature-color {
+  background-color: rgb(234, 31, 95, 0.8);
 }
 
-#color2 {
-  background-color: rgb(252, 206, 53, 0.9);
+#description-color {
+  background-color: rgb(252, 206, 53, 0.8);
   margin-top: 10px;
 }
-
+#search-color {
+  background-color: rgb(170, 2, 254, 0.7);
+}
 div#right-sided-information.col-6 {
   text-align: center;
 
   border: 5px solid rgb(32, 32, 32);
   width: 48%;
-  background-color: rgb(3, 169, 245, 0.9);
+  background-color: rgb(3, 169, 245, 0.8);
 }
 
 div#left-sided-information.col-6 {
