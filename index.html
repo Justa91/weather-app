@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -34,20 +35,20 @@
                 <h1>Poland</h1>
                 <p class="date">Friday 21:00</p>
                 <hr />
-                <h2>23</h2>
+                <h2></h2>
                 <span class="units">°C | °F</span>
               </div>
               <div class="border-wrapper" id="description-color">
                 <ul>
-                  <li>Humidity: 66%</li>
-                  <li>Wind: 3km/h</li>
+                  <li>Humidity: <span id="humidity"></span>%</li>
+                  <li>Wind: <span id="wind"></span> km/h</li>
                 </ul>
               </div>
             </div>
 
             <div class="col-6" id="right-sided-information">
-              <span id="icon-weather">☀️</span>
-              <p id="description">sunny</p>
+              <img id="icon-weather" src ="" alt=""></img>
+              <p id="description"></p>
             </div>
           </div>
         </div>
