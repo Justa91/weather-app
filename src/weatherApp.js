@@ -22,7 +22,6 @@ function formatDate(timestamp) {
 }
 
 function showWeather(response) {
-  console.log(response.data);
   let temperature = document.querySelector("h2");
   let currentTemperature = Math.round(response.data.temperature.current);
   temperature.innerHTML = currentTemperature;
@@ -40,13 +39,22 @@ function showWeather(response) {
   iconWeather.setAttribute("src", currentIconWeather);
   let date = document.querySelector("#date");
   date.innerHTML = formatDate(response.data.time * 1000);
+  let city = document.querySelector("h1");
+  let currentCity = response.data.city;
+  city.innerHTML = currentCity;
 }
 
-let apiKey = "1t46b45ad73356d1fdb57b7o025ca415";
-let units = "metric";
+function search(city) {
+  let apiKey = "1t46b45ad73356d1fdb57b7o025ca415";
+  let units = "metric";
+  let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=${units}`;
+  axios.get(apiUrl).then(showWeather);
+}
+function showCity(event) {
+  event.preventDefault();
+  let searchInput = document.querySelector("#search-text-input");
+  search(searchInput.value);
+}
 
-let city = "warsaw";
-
-let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=${units}`;
-
-axios.get(apiUrl).then(showWeather);
+let form = document.querySelector("#search-form");
+form.addEventListener("submit", showCity);
