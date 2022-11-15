@@ -83,3 +83,4 @@ fahrenheit.addEventListener("click", showFahrenheitTemperature);
 let celsius = document.querySelector("#celsius-link");
 celsius.addEventListener("click", showCelsiusTemperature);
 let celsiusTemperature = null;
+search("Warsaw");

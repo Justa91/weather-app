@@ -34,11 +34,9 @@ hr {
 }
 form {
   margin-bottom: 10px;
-  text-align: center;
 }
 input {
   border: 2px solid rgb(32, 32, 32);
-  width: 80%;
   background-color: white;
   padding: 5px;
   margin: 5px;
@@ -110,4 +108,11 @@ div#left-sided-information.col-6 {
 div#temperature-color .active {
   color: rgb(32, 32, 32);
   cursor: default;
+}
+#search-text-input {
+  text-align: center;
+  width: 100%;
+}
+#search-button {
+  width: 90%;
 }
