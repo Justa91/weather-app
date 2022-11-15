@@ -63,6 +63,7 @@ button:hover {
 
 a:link {
   text-decoration: none;
+  color: white;
 }
 .weather-app-wrapper {
   max-width: 600px;
@@ -72,6 +73,9 @@ a:link {
 .border-wrapper {
   border: 5px solid rgb(32, 32, 32);
   padding: 10px;
+}
+.date {
+  margin-bottom: 5px;
 }
 
 #icon-weather {
@@ -103,6 +107,7 @@ div#right-sided-information.col-6 {
 div#left-sided-information.col-6 {
   padding-right: 10px;
 }
-.date {
-  margin-bottom: 5px;
+div#temperature-color .active {
+  color: rgb(32, 32, 32);
+  cursor: default;
 }
