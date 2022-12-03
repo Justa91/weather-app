@@ -75,7 +75,18 @@ a:link {
 .date {
   margin-bottom: 5px;
 }
+.weather-forecast {
+  border: 5px solid rgb(32, 32, 32);
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: 900;
+  background-color: rgb(0, 197, 151, 0.8);
+}
 
+.weather-forecast-temperature-min {
+  font-weight: 500;
+}
 #icon-weather {
   font-size: 100px;
 }

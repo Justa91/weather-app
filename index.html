@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-       
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,25 +17,30 @@
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
-    
+
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
-   
-   
+
     <title>Comic Weather App</title>
   </head>
   <body>
     <div class="container">
       <div class="weather-app-wrapper">
         <div class="weather-app">
-          
-      <form id="search-form" class="border-wrapper">
-        <div class="row">
-          <div class="col-8">
-        <input type="search" placeholder="enter a city" id="search-text-input" /></div>
-        <div class="col-4">
-        <input type="submit" value="Search" id="search-button" /></div></div>
-      </form>
+          <form id="search-form" class="border-wrapper">
+            <div class="row">
+              <div class="col-8">
+                <input
+                  type="search"
+                  placeholder="enter a city"
+                  id="search-text-input"
+                />
+              </div>
+              <div class="col-4">
+                <input type="submit" value="Search" id="search-button" />
+              </div>
+            </div>
+          </form>
           <div class="row">
             <div class="col-6" id="left-sided-information">
               <div class="border-wrapper" id="temperature-color">
@@ -45,7 +48,10 @@
                 <p id="date"></p>
                 <hr />
                 <h2></h2>
-                <span class="units"><a href="#" id="celsius-link" class="active">°C</a> | <a href="#" id="fahrenheit-link">°F</a></span>
+                <span class="units"
+                  ><a href="#" id="celsius-link" class="active">°C</a> |
+                  <a href="#" id="fahrenheit-link">°F</a></span
+                >
               </div>
               <div class="border-wrapper" id="description-color">
                 <ul>
@@ -56,8 +62,25 @@
             </div>
 
             <div class="col-6" id="right-sided-information">
-              <img id="icon-weather" src ="" alt=""></>
+              <img id="icon-weather" src="" alt="" />
               <p id="description"></p>
+            </div>
+          </div>
+
+          <div class="weather-forecast">
+            <div xlass="row">
+              <div class="col-2">
+                Sun
+                <br />
+                <img
+                  src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-day.png"
+                  alt=""
+                  width="36"
+                />
+                <br />
+                <span class="weather-forecast-temperature-max">18°</span>
+                <span class="weather-forecast-temperature-min">12°</span>
+              </div>
             </div>
           </div>
         </div>
@@ -75,6 +98,6 @@
       </div>
     </div>
 
-     <script src="src/weatherApp.js"></script>
+    <script src="src/weatherApp.js"></script>
   </body>
 </html>
