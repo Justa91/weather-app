@@ -60,10 +60,6 @@ button:hover {
   font-weight: 700;
 }
 
-a:link {
-  text-decoration: none;
-  color: white;
-}
 .weather-app-wrapper {
   max-width: 600px;
   margin: 20px auto;

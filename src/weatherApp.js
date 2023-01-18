@@ -29,7 +29,6 @@ function formatForcastDay(timestamp) {
 }
 
 function displayForecast(response) {
-  console.log(response.data.daily);
   let forecast = response.data.daily;
   let forecastElement = document.querySelector(".weather-forecast");
   let forecastHTML = `<div class = "row">`;
@@ -107,30 +106,7 @@ function showCity(event) {
   search(searchInput.value);
 }
 
-function showFahrenheitTemperature(event) {
-  event.preventDefault();
-  let temperatureElement = document.querySelector("h2");
-  celsius.classList.remove("active");
-  fahrenheit.classList.add("active");
-  let FahrenheitTemperature = (celsiusTemperature * 9) / 5 + 32;
-
-  temperatureElement.innerHTML = Math.round(FahrenheitTemperature);
-}
-
-function showCelsiusTemperature(event) {
-  event.preventDefault();
-  let temperatureElement = document.querySelector("h2");
-  celsius.classList.add("active");
-  fahrenheit.classList.remove("active");
-  temperatureElement.innerHTML = celsiusTemperature;
-}
-
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", showCity);
-
-let fahrenheit = document.querySelector("#fahrenheit-link");
-fahrenheit.addEventListener("click", showFahrenheitTemperature);
-let celsius = document.querySelector("#celsius-link");
-celsius.addEventListener("click", showCelsiusTemperature);
 let celsiusTemperature = null;
 search("Warsaw");
