@@ -42,17 +42,10 @@ input {
   margin: 5px;
   box-shadow: 2px 3px 1px 1px rgb(32, 32, 32);
 }
-button {
-  border: 2px solid rgb(32, 32, 32);
-  background-color: white;
-  box-shadow: 2px 3px 1px 1px rgb(32, 32, 32);
-  color: rgb(32, 32, 32);
-}
-
-button:hover {
+#search-button:hover {
   background-color: rgb(224, 13, 13);
   color: white;
-  transition: 500ms linear;
+  transition: 200ms linear;
 }
 .units {
   position: relative;
