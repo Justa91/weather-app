@@ -41,11 +41,10 @@ input {
   background-color: white;
   padding: 5px;
   margin: 5px;
-  box-shadow: 2px 3px 1px 1px rgb(32, 32, 32);
   color: rgb(32, 32, 32);
 }
 #search-button:hover {
-  background-color: rgb(224, 13, 13);
+  background-color: rgb(46, 41, 41);
   color: white;
   transition: 200ms linear;
 }
@@ -64,14 +63,13 @@ input {
   margin-bottom: 5px;
 }
 .weather-forecast {
-  border: 5px solid rgb(32, 32, 32);
+  border: 2px solid rgb(32, 32, 32);
   padding: 5px;
   margin-top: 10px;
   text-align: center;
   font-weight: 900;
-  background-color: rgb(0, 197, 151, 0.8);
-  border-width: 10px 10px 10px 10px;
-  border-radius: 95% 4% 92% 5%/4% 95% 6% 95%;
+  border-width: 4px 3px 4px 3px;
+  border-radius: 3% 90% 6% 95%/90% 9% 10% 10%;
   transform: rotate(-0.5deg);
 }
 
@@ -87,39 +85,35 @@ input {
 }
 
 #temperature-color {
-  border: 5px solid rgb(32, 32, 32);
+  border: 2px solid rgb(32, 32, 32);
   padding: 10px;
-  background-color: rgb(234, 31, 95, 0.8);
-  border-width: 3px 3px 5px 5px;
+  border-width: 4px 3px 4px 3px;
   border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
-  transform: rotate(-2deg);
+  transform: rotate(-1deg);
 }
 
 #description-color {
-  background-color: rgb(252, 206, 53, 0.8);
   margin-top: 10px;
   padding: 10px;
-  border: 5px solid rgb(32, 32, 32);
-  border-width: 3px 3px 5px 5px;
-  border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
-  transform: rotate(-1deg);
+  border: 2px solid rgb(32, 32, 32);
+  border-width: 4px 3px 4px 3px;
+  border-radius: 3% 90% 6% 95%/90% 9% 10% 10%;
+  transform: rotate(-0.5deg);
 }
 #search-form {
-  background-color: rgb(170, 2, 254, 0.7);
   padding: 10px;
-  border: 5px solid rgb(32, 32, 32);
-  border-width: 4px 4px 4px 2px;
-  border-radius: 90% 2% 3% 5%/4% 80% 30% 15%;
-  transform: rotate(-0.5deg);
+  border: 2px solid rgb(32, 32, 32);
+  background-color: blueviolet;
+  border-width: 4px 3px 4px 3px;
+  border-radius: 1% 40% 1% 5%/95% 4% 92% 4%;
 }
 div#right-sided-information.col-6 {
   text-align: center;
-  border: 5px solid rgb(32, 32, 32);
-  border-width: 3px 3px 5px 5px;
+  border: 2px solid rgb(32, 32, 32);
+  width: 48%;
+  border-width: 4px 3px 4px 3px;
   border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
   transform: rotate(-1deg);
-  width: 48%;
-  background-color: rgb(3, 169, 245, 0.8);
 }
 
 div#left-sided-information.col-6 {
