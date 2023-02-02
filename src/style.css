@@ -1,10 +1,9 @@
 .weather-app {
   font-family: "Comic Neue", cursive;
   color: rgb(32, 32, 32);
-  border: 10px solid rgb(32, 32, 32);
+  border: 5px solid rgb(32, 32, 32);
   max-width: 600px;
   padding: 10px;
-  background-image: url("/images/background.jpg");
 }
 
 h1,
@@ -59,10 +58,6 @@ input {
   margin: 20px auto;
 }
 
-.border-wrapper {
-  border: 5px solid rgb(32, 32, 32);
-  padding: 10px;
-}
 .date {
   margin-bottom: 5px;
 }
@@ -73,6 +68,9 @@ input {
   text-align: center;
   font-weight: 900;
   background-color: rgb(0, 197, 151, 0.8);
+  border-width: 3px 3px 5px 5px;
+  border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
+  transform: rotate(-2deg);
 }
 
 .weather-forecast-temperature-min {
@@ -87,19 +85,37 @@ input {
 }
 
 #temperature-color {
+  border: 5px solid rgb(32, 32, 32);
+  padding: 10px;
   background-color: rgb(234, 31, 95, 0.8);
+  border-width: 3px 3px 5px 5px;
+  border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
+  transform: rotate(-2deg);
 }
 
 #description-color {
   background-color: rgb(252, 206, 53, 0.8);
   margin-top: 10px;
+  padding: 10px;
+  border: 5px solid rgb(32, 32, 32);
+  border-width: 3px 3px 5px 5px;
+  border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
+  transform: rotate(-2deg);
 }
 #search-form {
   background-color: rgb(170, 2, 254, 0.7);
+  padding: 10px;
+  border: 5px solid rgb(32, 32, 32);
+  border-width: 3px 3px 5px 5px;
+  border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
+  transform: rotate(-2deg);
 }
 div#right-sided-information.col-6 {
   text-align: center;
   border: 5px solid rgb(32, 32, 32);
+  border-width: 3px 3px 5px 5px;
+  border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
+  transform: rotate(-2deg);
   width: 48%;
   background-color: rgb(3, 169, 245, 0.8);
 }
@@ -107,10 +123,7 @@ div#right-sided-information.col-6 {
 div#left-sided-information.col-6 {
   padding-right: 10px;
 }
-div#temperature-color .active {
-  color: rgb(32, 32, 32);
-  cursor: default;
-}
+
 #search-text-input {
   text-align: center;
   width: 100%;
