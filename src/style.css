@@ -104,8 +104,8 @@ input {
   background-color: rgb(255, 255, 255, 0.4);
 }
 #search-form {
-  padding: 15px;
-  border: 4px solid rgb(10, 28, 32);
+  padding: 20px;
+  border: 6px solid rgb(10, 28, 32);
   background-color: rgb(254, 220, 13, 0.8);
   transform: rotate(-0, 5deg);
 }
