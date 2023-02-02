@@ -2,7 +2,7 @@
   font-family: "Comic Neue", cursive;
   color: rgb(10, 28, 32);
   border: 5px solid rgb(10, 28, 32);
-  max-width: 600px;
+  max-width: 500px;
   padding: 20px;
   border-width: 7px 7px 7px 7px;
   border-radius: 4% 90% 3% 60% / 90% 2% 90% 2%;
@@ -40,8 +40,6 @@ form {
 input {
   border: 2px solid rgb(10, 28, 32);
   background-color: white;
-  padding: 5px;
-  margin: 5px;
   color: rgb(10, 28, 32);
   box-shadow: 2px 2px 2px 1px rgb(10, 28, 32);
 }
@@ -106,9 +104,9 @@ input {
   background-color: rgb(255, 255, 255, 0.4);
 }
 #search-form {
-  padding: 10px;
-  border: 7px solid rgb(10, 28, 32);
-  background-color: rgb(254, 220, 13, 0.9);
+  padding: 15px;
+  border: 4px solid rgb(10, 28, 32);
+  background-color: rgb(254, 220, 13, 0.8);
   transform: rotate(-0, 5deg);
 }
 div#right-sided-information.col-6 {
@@ -130,5 +128,5 @@ div#left-sided-information.col-6 {
   width: 100%;
 }
 #search-button {
-  width: 90%;
+  width: 100%;
 }
