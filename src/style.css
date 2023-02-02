@@ -41,7 +41,6 @@ input {
   border: 2px solid rgb(10, 28, 32);
   background-color: white;
   color: rgb(10, 28, 32);
-  box-shadow: 2px 2px 2px 1px rgb(10, 28, 32);
 }
 #search-button:hover {
   background-color: rgb(208, 30, 0);
