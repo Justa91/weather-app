@@ -3,7 +3,9 @@
   color: rgb(32, 32, 32);
   border: 5px solid rgb(32, 32, 32);
   max-width: 600px;
-  padding: 10px;
+  padding: 20px;
+  border-width: 7px 7px 7px 7px;
+  border-radius: 4% 90% 3% 60% / 90% 2% 90% 2%;
 }
 
 h1,
@@ -63,14 +65,14 @@ input {
 }
 .weather-forecast {
   border: 5px solid rgb(32, 32, 32);
-  padding: 10px;
+  padding: 5px;
   margin-top: 10px;
   text-align: center;
   font-weight: 900;
   background-color: rgb(0, 197, 151, 0.8);
-  border-width: 3px 3px 5px 5px;
-  border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
-  transform: rotate(-2deg);
+  border-width: 10px 10px 10px 10px;
+  border-radius: 95% 4% 92% 5%/4% 95% 6% 95%;
+  transform: rotate(-0.5deg);
 }
 
 .weather-forecast-temperature-min {
@@ -100,22 +102,22 @@ input {
   border: 5px solid rgb(32, 32, 32);
   border-width: 3px 3px 5px 5px;
   border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
-  transform: rotate(-2deg);
+  transform: rotate(-1deg);
 }
 #search-form {
   background-color: rgb(170, 2, 254, 0.7);
   padding: 10px;
   border: 5px solid rgb(32, 32, 32);
-  border-width: 3px 3px 5px 5px;
-  border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
-  transform: rotate(-2deg);
+  border-width: 4px 4px 4px 2px;
+  border-radius: 90% 2% 3% 5%/4% 80% 30% 15%;
+  transform: rotate(-0.5deg);
 }
 div#right-sided-information.col-6 {
   text-align: center;
   border: 5px solid rgb(32, 32, 32);
   border-width: 3px 3px 5px 5px;
   border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
-  transform: rotate(-2deg);
+  transform: rotate(-1deg);
   width: 48%;
   background-color: rgb(3, 169, 245, 0.8);
 }
